@@ -1,0 +1,2 @@
+- **Photo Gallery exercise** ([link](https://www.reactnative.express/exercises/photo_gallery))
+- Added some modal pop-up enhancements
