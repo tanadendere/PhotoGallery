@@ -10,7 +10,7 @@ export default function PhotoGrid({
 }: {
   photos: IPhoto[];
   numColumns: number;
-  onEndReached: any;
+  onEndReached: () => void;
 }) {
   //using the Dimensions API to determine the width of the screen, and divide the result by numColumns to know what size of image to display.
   const { width } = Dimensions.get("window");
